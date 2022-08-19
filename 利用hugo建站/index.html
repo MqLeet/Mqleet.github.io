@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>利用hugo建站 - 我的全新 Hugo 网站</title><meta name="Description" content="这是我的全新 Hugo 网站"><meta property="og:title" content="利用hugo建站" />
+<meta property="og:description" content="如何利用hugo建立主题为LoveIt的个人博客 个人主机： 操作系统：Windows 10 git版本：git version 2.37.1.windows.1 1 下载hugo 在hugo的rele" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" /><meta property="og:image" content="https://Mqleet.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-19T16:26:53+08:00" />
+<meta property="article:modified_time" content="2022-08-19T16:26:53+08:00" /><meta property="og:site_name" content="我的网站" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://Mqleet.github.io/logo.png"/>
+
+<meta name="twitter:title" content="利用hugo建站"/>
+<meta name="twitter:description" content="如何利用hugo建立主题为LoveIt的个人博客 个人主机： 操作系统：Windows 10 git版本：git version 2.37.1.windows.1 1 下载hugo 在hugo的rele"/>
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" /><link rel="prev" href="https://Mqleet.github.io/img2video/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "利用hugo建站",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/Mqleet.github.io\/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99\/"
+        },"genre": "posts","wordcount":  1841 ,
+        "url": "https:\/\/Mqleet.github.io\/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99\/","datePublished": "2022-08-19T16:26:53+08:00","dateModified": "2022-08-19T16:26:53+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="我的全新 Hugo 网站">Qianli&#39;s blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="我的全新 Hugo 网站">Qianli&#39;s blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">利用hugo建站</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a>
+</span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-19">2022-08-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1841 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#21-创建我们自己的项目">2.1 创建我们自己的项目</a></li>
+    <li><a href="#22-安装主题">2.2 安装主题</a></li>
+    <li><a href="#23-基础配置">2.3 基础配置</a></li>
+    <li><a href="#24-创建文章">2.4 创建文章</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#41-创建存储静态页面的仓库">4.1 创建存储静态页面的仓库</a></li>
+    <li><a href="#42-使用hugo命令生成包含网站资源的public目录">4.2 使用hugo命令生成包含网站资源的public目录</a></li>
+    <li><a href="#43-在42中可能会遇到如下报错">4.3 在4.2中可能会遇到如下报错</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="如何利用hugo建立主题为loveit的个人博客">如何利用hugo建立主题为LoveIt的个人博客</h1>
+<p>个人主机：</p>
+<ul>
+<li>操作系统：Windows 10</li>
+<li>git版本：<code>git version 2.37.1.windows.1</code></li>
+</ul>
+<h1 id="1-下载hugo">1 下载hugo</h1>
+<p>在hugo的release界面选择合适的版本进行下载<a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">https://github.com/gohugoio/hugo/releases</a>
+</p>
+<p>建议下载<code>hugo_extended_0.x.x_Windows-64bit.zip</code>，原因后面会说</p>
+<p>此处我们先下载<code>hugo_0.101.0_Windows-64bit.zip</code>,下载步骤如下：</p>
+<ul>
+<li>下载<code>hugo_0.101.0_Windows-64bit.zip</code>到桌面，解压到<code>D:\blog\bin</code></li>
+<li>设置环境变量<code>PATH</code>，将<code>D:\blog\bin</code>加入环境变量<code>PATH</code></li>
+<li>打开cmd,输入<code>hugo version</code>,即可查看安装好的hugo的版本</li>
+<li><code>git version</code>查看安装的git的版本</li>
+</ul>
+<p>至此，hugo的下载完成。</p>
+<hr>
+<h1 id="2-安装">2 安装</h1>
+<h2 id="21-创建我们自己的项目">2.1 创建我们自己的项目</h2>
+<p>打开cmd 输入如下命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new site my_website
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> my_website
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这里的<strong>my_website</strong>就是我们用hugo的<code>new</code>命令新建的项目（网站）文件夹</p>
+<p>此时我们进入了项目文件夹<code>my_website</code></p>
+<h2 id="22-安装主题">2.2 安装主题</h2>
+<p>这里我选择的是LoveIt主题，他的仓库是：<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer">https://github.com/dillonzq/LoveIt</a>
+</p>
+<p>我们下载主题的<code>最新版本.zip</code>文件到桌面，然后解压到创建的<code>/my_website/themes/</code>文件夹中,注意将解压后的<code>LoveIt-0.2.xx</code>文件夹更名为<code>LoveIt</code>，方便配置文件的查询</p>
+<h2 id="23-基础配置">2.3 基础配置</h2>
+<p>参考<a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/#basic-configuration" target="_blank" rel="noopener noreffer">https://hugoloveit.com/zh-cn/theme-documentation-basics/#basic-configuration</a>
+，将<code>/my_website</code>下的<code>config.toml</code>的内容替换为上面网址中对应的内容，保存文件。</p>
+<p>运行命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo serve
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>访问<a href="http://localhost:1313/" target="_blank" rel="noopener noreffer">http://localhost:1313/</a>
+，可以观察在本地启动的博客网站</p>
+<h2 id="24-创建文章">2.4 创建文章</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo new posts/first_post.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>可以在<code>/my_website/content/posts</code>中找到first_post.md</p>
+<p>此时运行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo serve --buildDrafts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>即可查看含有第一篇文章的页面</p>
+<h1 id="3-套用更完善的配置文件">3 套用更完善的配置文件</h1>
+<p>利用
+<a href="https://hugoloveit.com/zh-cn/theme-documentation-basics/#3-%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener noreffer">https://hugoloveit.com/zh-cn/theme-documentation-basics/#3-%E9%85%8D%E7%BD%AE</a>
+提供的toml文件。</p>
+<p>修改<code>enableGitInfo</code>为false，修改<code>name = &quot;Qianli's blog&quot;</code>使左上角的导航出现</p>
+<p>运行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo serve --buildDrafts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>得到完整的启动在本地的网站</p>
+<h1 id="4-将本地网站挂载到github-pages上">4 将本地网站挂载到github-pages上</h1>
+<p>经历了如上三步，我们只能在本地启动个人博客网站，这样让人很不爽，那么我们该怎么让别人也能看到我们的博客网站呢？ <strong>我们可以将本地博客部署到github-pages上</strong></p>
+<h2 id="41-创建存储静态页面的仓库">4.1 创建存储静态页面的仓库</h2>
+<p>在github中新建一个repo，repo的名字是<code>github用户名.github.io</code>
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/new_repo.png"
+        data-srcset="/new_repo.png, /new_repo.png 1.5x, /new_repo.png 2x"
+        data-sizes="auto"
+        alt="/new_repo.png"
+        title="创建repo" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/initial_repo.png"
+        data-srcset="/initial_repo.png, /initial_repo.png 1.5x, /initial_repo.png 2x"
+        data-sizes="auto"
+        alt="/initial_repo.png"
+        title="初始仓库" /></p>
+<h2 id="42-使用hugo命令生成包含网站资源的public目录">4.2 使用hugo命令生成包含网站资源的public目录</h2>
+<p>运行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo --baseUrl<span class="o">=</span><span class="s2">&#34;https://Mqleet.github.io/&#34;</span> --buildDrafts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>初始化</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将所有资源加入index</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>提交</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>增加远程定义</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git remote add origin https://github.com/MqLeet/Mqleet.github.io.git
+</span></span><span class="line"><span class="cl">// 这里之前用ssh增加远程定义失败了，所以改用https来远程连接
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>第一次push需要加<code>-u origin master</code>，后面再提交可以直接push</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>然后github授权，即可将本地仓库push到github去。
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/success_push.png"
+        data-srcset="/success_push.png, /success_push.png 1.5x, /success_push.png 2x"
+        data-sizes="auto"
+        alt="/success_push.png"
+        title="成功挂载" /></p>
+<p>此时，在浏览器中即可使用<code>github用户名.github.io</code>访问挂载在github-pages上的个人博客啦！</p>
+<h2 id="43-在42中可能会遇到如下报错">4.3 在4.2中可能会遇到如下报错</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">error: failed to transform resource: TOCSS: failed to transform &#34;scss/main.scss&#34; (text/x-scss): this feature is not available in your current Hugo version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>参考官方文档<a href="https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version" target="_blank" rel="noopener noreffer">https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version</a>
+的解决方案：下载带有extended版本的hugo即可解决</p>
+<p>至此，1处的伏笔也已收回</p>
+<h1 id="5-写完文章后如何上传">5 写完文章后如何上传：</h1>
+<p>在my_website文件执行命令行指令：
+<code>hugo --baseUrl=&quot;https://Mqleet.github.io/&quot; --buildDrafts</code> 生成public文件</p>
+<p>然后打开需要提交的文件public
+<code>cd public</code></p>
+<p>对public文件执行</p>
+<p><code>git add .</code></p>
+<p><code>git commit -m &quot;first commit&quot;</code> 其中&quot;first commit&quot;是本次提交的名字，可以重复使用</p>
+<p><code>git push</code> 将缓冲区的内容push到仓库去</p>
+<p>如果遇到如下报错：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fatal: unable to access &#39;https://github.com/MqLeet/Mqleet.github.io.git/&#39;: OpenSSL SSL_read: Connection was aborted, errno 10053
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>原因：Git默认限制推送的大小，运行命令更改限制大小即可</p>
+<p>解决方法：<code>git config --global http.postBuffer 524288000</code></p>
+<hr>
+<h1 id="结语">结语：</h1>
+<p>至此，我们由原始配置得到了一个比较粗糙的网站，想得到更精致的个人博客网站，可以参考<a href="https://hugoloveit.com/zh-cn/" target="_blank" rel="noopener noreffer">https://hugoloveit.com/zh-cn/</a>
+的文章，修改配置文件中的参数来设置~</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-08-19</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" data-title="利用hugo建站" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" data-title="利用hugo建站"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" data-title="利用hugo建站"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/" data-title="利用hugo建站"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/img2video/" class="prev" rel="prev" title="Img2video"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Img2video</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

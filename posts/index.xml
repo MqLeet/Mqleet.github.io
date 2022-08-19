@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - 我的全新 Hugo 网站</title>
+        <link>https://Mqleet.github.io/posts/</link>
+        <description>All Posts | 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Aug 2022 16:26:53 &#43;0800</lastBuildDate><atom:link href="https://Mqleet.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>利用hugo建站</title>
+    <link>https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/</link>
+    <pubDate>Fri, 19 Aug 2022 16:26:53 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://Mqleet.github.io/%E5%88%A9%E7%94%A8hugo%E5%BB%BA%E7%AB%99/</guid>
+    <description><![CDATA[如何利用hugo建立主题为LoveIt的个人博客 个人主机： 操作系统：Windows 10 git版本：git version 2.37.1.windows.1 1 下载hugo 在hugo的rele]]></description>
+</item>
+<item>
+    <title>Img2video</title>
+    <link>https://Mqleet.github.io/img2video/</link>
+    <pubDate>Fri, 19 Aug 2022 16:26:12 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://Mqleet.github.io/img2video/</guid>
+    <description><![CDATA[使用Python生成GIF图片和MP4视频 GIF图像的制作 1 2 3 4 5 6 7 8 9 10 11 12 from glob import glob import imageio def make_gif(img_folder): &#34;&#34;&#34; Make a gif image for giving image folder &#34;&#34;&#34; images = [] image_list = glob(os.path.join(img_folder, &#34;*.png&#34;)) for img_path in image_list:]]></description>
+</item>
+<item>
+    <title>First_post</title>
+    <link>https://Mqleet.github.io/first_post/</link>
+    <pubDate>Fri, 19 Aug 2022 16:09:45 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://Mqleet.github.io/first_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
